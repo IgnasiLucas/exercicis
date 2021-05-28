@@ -6,7 +6,7 @@ if $(which blastp > /dev/null); then
 fi
 
 if [ $BLAST_VERSION != "2.10.1+" ]; then
-   conda install -c bioconda -y -q blast=2.10.1
+   conda install -c bioconda -y -q blast
 fi
 
 if [ ! -e taxdb.btd ]; then
