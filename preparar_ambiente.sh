@@ -9,6 +9,10 @@ if [ $BLAST_VERSION != "2.10.1+" ]; then
    conda install -c bioconda -y -q blast
 fi
 
+if ! $(which hmmscan > /dev/null); then
+   conda install -c bioconda -y -q hmmer
+fi
+
 if [ ! -e taxdb.btd ]; then
    if [ -e taxdb.btd.gz ]; then
       gunzip taxdb.btd.gz

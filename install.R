@@ -1,4 +1,5 @@
 if (!requireNamespace('BiocManager', quietly=TRUE))
     install.packages('BiocManager')
-BiocManager::install('ShortRead')
-install.packages('curl')
+BiocManager::install('DECIPHER')
+install.packages('taxize')
+install.packages('rhmmer')
