@@ -1,4 +1,7 @@
 if (!requireNamespace('BiocManager', quietly=TRUE))
     install.packages('BiocManager')
 BiocManager::install('ShortRead')
+BiocManager::install('Rbowtie2')
 install.packages('curl')
+install.packages('MetBrewer')
+install.packages('ggplot2')
