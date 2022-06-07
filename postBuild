@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gunzip data/cerber.fa.gz
+R --quiet --no-save -e "library(devtools); install_github('arendsee/rhmmer')"
