@@ -1,0 +1,303 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  z1.hmm
+# target sequence database:        data/Amphimedon_queenslandica.fasta
+# output directed to file:         Amphimedon_queenslandica.out
+# per-seq hits tabular output:     Amphimedon_queenslandica.tblout
+# per-dom hits tabular output:     Amphimedon_queenslandica.domtblout
+# sequence reporting threshold:    E-value <= 1e-10
+# domain reporting threshold:      E-value <= 1e-10
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       FOXP3  [M=405]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    9.2e-61  207.5   3.9    7.7e-42  145.2   0.3    2.2  2  tr|A0A1X7VS46|A0A1X7VS46_AMPQE  Fork-head domain-containing prot
+    1.4e-27   98.2   0.0    3.6e-27   96.9   0.0    1.6  1  tr|A0A1X7V7L3|A0A1X7V7L3_AMPQE  Fork-head domain-containing prot
+    4.1e-24   86.8   0.1    9.2e-24   85.7   0.0    1.7  1  tr|A0A1X7TF25|A0A1X7TF25_AMPQE  Fork-head domain-containing prot
+    5.4e-22   79.8   0.1    8.5e-22   79.2   0.1    1.2  1  tr|A0A1X7VFN2|A0A1X7VFN2_AMPQE  Fork-head domain-containing prot
+      3e-21   77.4   0.0    5.1e-21   76.6   0.0    1.3  1  tr|A0A1X7UP23|A0A1X7UP23_AMPQE  Fork-head domain-containing prot
+    6.1e-21   76.4   0.2    1.2e-20   75.5   0.2    1.4  1  tr|A0A1X7TPF1|A0A1X7TPF1_AMPQE  Fork-head domain-containing prot
+    2.2e-19   71.2   0.0    3.4e-19   70.6   0.0    1.3  1  tr|A0A1X7UXJ1|A0A1X7UXJ1_AMPQE  Fork-head domain-containing prot
+    2.8e-19   70.9   0.3    5.3e-19   70.0   0.3    1.4  1  tr|A0A1X7VEN3|A0A1X7VEN3_AMPQE  Fork-head domain-containing prot
+    4.1e-19   70.4   0.1    8.5e-19   69.3   0.1    1.5  1  tr|A0A1X7UIW3|A0A1X7UIW3_AMPQE  Fork-head domain-containing prot
+    1.5e-17   65.2   0.1    1.5e-17   65.2   0.1    2.1  1  tr|A0A1X7TRC2|A0A1X7TRC2_AMPQE  Fork-head domain-containing prot
+    1.8e-17   64.9   0.0      3e-17   64.2   0.0    1.3  1  tr|A0A1X7UKK6|A0A1X7UKK6_AMPQE  Fork-head domain-containing prot
+    2.4e-17   64.6   0.1    4.9e-17   63.5   0.1    1.4  1  tr|A0A1X7V9H3|A0A1X7V9H3_AMPQE  Fork-head domain-containing prot
+    7.5e-16   59.6   0.0    9.4e-16   59.3   0.0    1.1  1  tr|A0A1X7SG41|A0A1X7SG41_AMPQE  Fork-head domain-containing prot
+    2.2e-14   54.8   0.1    2.2e-14   54.8   0.1    2.8  1  tr|A0A1X7VG55|A0A1X7VG55_AMPQE  Fork-head domain-containing prot
+    8.4e-14   52.9   0.0    1.4e-13   52.2   0.0    1.3  1  tr|A0A1X7VGP4|A0A1X7VGP4_AMPQE  Fork-head domain-containing prot
+    2.1e-12   48.2   0.0    4.2e-12   47.3   0.0    1.4  1  tr|A0A1X7V1F6|A0A1X7V1F6_AMPQE  Fork-head domain-containing prot
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|A0A1X7VS46|A0A1X7VS46_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063450
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.4   0.3     2e-20   5.3e-17     116     267 ..     120     277 ..      86     294 .. 0.72
+   2 !  145.2   0.3   2.8e-45   7.7e-42     307     396 ..     464     555 ..     449     564 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 63.4 bits;  conditional E-value: 2e-20
+                           FOXP3 116 vfslkarpGlppginvaslelvsrepal.lctfps..pgaprkdst.lsavpqgssaLlv...nGvCkWPGCekvfeef 187
+                                      +++ ++pGl+ ++n    e + +++ + ++t p    g p+  s   s++p  s+aL v    GvCkWP C    + +
+  tr|A0A1X7VS46|A0A1X7VS46_AMPQE 120 QQQTLSQPGLTVTSNSTIDEASLQQNIMtMATTPGgvGGLPQSSSAaASSLPTQSDALRVlwdGGVCKWPNCSVLLKSH 198
+                                     34556789998888877766665444331456664224678776641678899888765533379************** PP
+
+                           FOXP3 188 edfLkhlqadhlldeksraqlrlqrevvqsleqqLvlekekLsamqlhLagklalkkase.vassdkksaslvallsqa 265
+                                     ed+L hl+++hl++ k+  ql++q  ++ ++ + L  ek kL am+ hL  +l  ++ ++ ++s   +s+++++  +++
+  tr|A0A1X7VS46|A0A1X7VS46_AMPQE 199 EDLLSHLKSEHLHNSKAELQLKVQSMLIEQVYDLLQHEKAKLVAMKTHL--NLPISSLTDdLKSDLITSVAIATPPTPS 275
+                                     *************************************************..6766665540444444555555444444 PP
+
+                           FOXP3 266 sv 267
+                                     s+
+  tr|A0A1X7VS46|A0A1X7VS46_AMPQE 276 ST 277
+                                     44 PP
+
+  == domain 2  score: 145.2 bits;  conditional E-value: 2.8e-45
+                           FOXP3 307 fkfhnmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrvesek..GavWt 383
+                                     +   + rPPftya+lir aiLe+P++ +tL eiy Wf + f+yf++n  tWkna+rhnLsLhkCfvrve +k  GavWt
+  tr|A0A1X7VS46|A0A1X7VS46_AMPQE 464 YSKIDQRPPFTYASLIRQAILESPDQCLTLCEIYAWFMKNFIYFKENNPTWKNAIRHNLSLHKCFVRVELNKsrGAVWT 542
+                                     555678***************************************************************87655***** PP
+
+                           FOXP3 384 vdelefrkkksqr 396
+                                     vd+  ++kk+  +
+  tr|A0A1X7VS46|A0A1X7VS46_AMPQE 543 VDDSLYKKKRHMK 555
+                                     *********9866 PP
+
+>> tr|A0A1X7V7L3|A0A1X7V7L3_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10064053
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.9   0.0   1.3e-30   3.6e-27     305     385 ..      93     178 ..      83     184 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 96.9 bits;  conditional E-value: 1.3e-30
+                           FOXP3 305 dyfkfhnmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrv.....esek 378
+                                     + +++h+ +PP+ yatli +ai  +P+++ tLneiy W  + f y+r+    Wkn++rhnLsL kCf +v     + +k
+  tr|A0A1X7V7L3|A0A1X7V7L3_AMPQE  93 QAYRYHDAKPPYSYATLITYAINSSPKRRMTLNEIYTWICNNFPYYREAGTGWKNSIRHNLSLNKCFQKVprpkeDPGK 171
+                                     57******************************************************************99555544689 PP
+
+                           FOXP3 379 GavWtvd 385
+                                     G+ W +d
+  tr|A0A1X7V7L3|A0A1X7V7L3_AMPQE 172 GSYWEID 178
+                                     9999998 PP
+
+>> tr|A0A1X7TF25|A0A1X7TF25_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10531494
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.7   0.0   3.4e-27   9.2e-24     303     387 ..      46     134 ..      23     198 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 85.7 bits;  conditional E-value: 3.4e-27
+                           FOXP3 303 sldyfkfhnmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrv....ese 377
+                                     ++d  + ++++PP+ y +li  ai ++P+k++tL  iy++    f y+ +n   W+n++rhnLsL  Cfv+v      +
+  tr|A0A1X7TF25|A0A1X7TF25_AMPQE  46 NIDSDRNEDVKPPYSYVALIAMAIAKSPDKRLTLSGIYQFIMDQFPYYAKNKKGWQNSIRHNLSLNECFVKVprdgGDR 124
+                                     67888889****************************************************************4432358 PP
+
+                           FOXP3 378 kGavWtvdel 387
+                                     kG  Wt de 
+  tr|A0A1X7TF25|A0A1X7TF25_AMPQE 125 KGNYWTLDES 134
+                                     ********95 PP
+
+>> tr|A0A1X7VFN2|A0A1X7VFN2_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10064065
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.2   0.1   3.1e-25   8.5e-22     313     383 ..      89     165 ..      85     172 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 79.2 bits;  conditional E-value: 3.1e-25
+                           FOXP3 313 rPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrvese......kGavWt 383
+                                     rPPf y tli  ai  +P k++tLneiy +    f ++r+n   W+n++rhnLsL  Cfv+v  e      kG  Wt
+  tr|A0A1X7VFN2|A0A1X7VFN2_AMPQE  89 RPPFSYITLISMAIKGSPRKKLTLNEIYTFIMDKFPFYRENRRGWQNSIRHNLSLNECFVKVAREkedppgKGNYWT 165
+                                     9*************************************************************876112222566666 PP
+
+>> tr|A0A1X7UP23|A0A1X7UP23_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063510
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.6   0.0   1.9e-24   5.1e-21     313     385 ..     109     186 ..     106     189 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 76.6 bits;  conditional E-value: 1.9e-24
+                           FOXP3 313 rPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrv.....esekGavWtvd 385
+                                     +PPf y +li  ai  +Pe+++tL  iy++  + f y+r+n   W+n++rhnLsL kCfv+v     + +kG  Wt d
+  tr|A0A1X7UP23|A0A1X7UP23_AMPQE 109 KPPFSYNALIVMAIRSSPERKLTLSGIYDYIMKNFPYYRENKQGWQNSIRHNLSLNKCFVKVprpydDPGKGNYWTLD 186
+                                     7*************************************************************66655579******99 PP
+
+>> tr|A0A1X7TPF1|A0A1X7TPF1_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063205
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.5   0.2   4.2e-24   1.2e-20     308     379 ..      90     162 ..      72     200 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 75.5 bits;  conditional E-value: 4.2e-24
+                           FOXP3 308 kfhnmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnnt.atWknavrhnLsLhkCfvrvesekG 379
+                                     k  n++PP+ y +li  ai  + ek++tLn iy++ t+ f y+rn+    W+n++rhnLsLh Cf++  ++ G
+  tr|A0A1X7TPF1|A0A1X7TPF1_AMPQE  90 KMANVKPPYSYVALISMAIQSCNEKRLTLNGIYDFITKNFPYYRNREnQGWRNSIRHNLSLHECFMKLPAKGG 162
+                                     889*****************************************975168****************9865433 PP
+
+>> tr|A0A1X7UXJ1|A0A1X7UXJ1_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063410
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.6   0.0   1.3e-22   3.4e-19     310     382 ..      76     153 ..      31     174 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 70.6 bits;  conditional E-value: 1.3e-22
+                           FOXP3 310 hnmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrv.....esekGavW 382
+                                     ++++PP+ y +li  ai ++P+k +tL ei ++  + fay+r++  +W+n++rhnLsL  Cf++v      s+kG  W
+  tr|A0A1X7UXJ1|A0A1X7UXJ1_AMPQE  76 DDVKPPYSYIALIAMAISQSPNKMLTLGEICDFIIQQFAYYRKRWPAWQNSIRHNLSLNDCFIKVpreygSSGKGNFW 153
+                                     689**************************************************************3333235566666 PP
+
+>> tr|A0A1X7VEN3|A0A1X7VEN3_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063737
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.0   0.3   1.9e-22   5.3e-19     307     385 ..      92     177 ..      80     204 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 70.0 bits;  conditional E-value: 1.9e-22
+                           FOXP3 307 fkfhn..mrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrv...es..ek 378
+                                     +k+++   +PPf y t+i  ai  + + + tL eiy+W    f+y+r   +tW+n+vrhnLsL   f+++   e+  +k
+  tr|A0A1X7VEN3|A0A1X7VEN3_AMPQE  92 WKYQDnpAKPPFSYTTIIYLAIRSSKNDKVTLGEIYQWIKDHFMYYRVAESTWQNSVRHNLSLNDFFIKIprsEGdpGK 170
+                                     566542379***********************************************************76444553369 PP
+
+                           FOXP3 379 GavWtvd 385
+                                     G+ W ++
+  tr|A0A1X7VEN3|A0A1X7VEN3_AMPQE 171 GSFWKIN 177
+                                     9999875 PP
+
+>> tr|A0A1X7UIW3|A0A1X7UIW3_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063590
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.3   0.1   3.1e-22   8.5e-19     313     395 ..      85     174 ..      77     188 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 69.3 bits;  conditional E-value: 3.1e-22
+                           FOXP3 313 rPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnn.....tatWknavrhnLsLhkCfvrve...sekGavWt 383
+                                          ya li  aiL + +k++tL eiy+W  +   yf ++     ta Wkn+vrhnLsLh  fv+v+   s+k + Wt
+  tr|A0A1X7UIW3|A0A1X7UIW3_AMPQE  85 WGNMSYADLITQAILSSQDKRLTLSEIYDWIVQNVPYFSDKasspsTAGWKNSVRHNLSLHSRFVKVQnesSGKSSWWT 163
+                                     45578*********************************97534444799******************63336799**** PP
+
+                           FOXP3 384 vdelefrkkksq 395
+                                     v+ l+ +  +++
+  tr|A0A1X7UIW3|A0A1X7UIW3_AMPQE 164 VN-LDAKSTRGR 174
+                                     96.333333333 PP
+
+>> tr|A0A1X7TRC2|A0A1X7TRC2_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.2   0.1   5.6e-21   1.5e-17     307     385 ..     897     979 ..     823     997 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 65.2 bits;  conditional E-value: 5.6e-21
+                           FOXP3 307 fkfhnmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnn.....tatWknavrhnLsLhkCfvrv..e.se 377
+                                     + + nm     ya li  aiL + +k++tL eiy+W  +   yf ++     t+ Wkn+vrhnLsLh  fv+v  e s+
+  tr|A0A1X7TRC2|A0A1X7TRC2_AMPQE 897 YAWGNM----SYADLITQAILSSQDKKLTLPEIYNWIVQNVPYFSDKakspsTSGWKNSVRHNLSLHSRFVKVrnEsSG 971
+                                     334444....7*********************************87533333567***************999442367 PP
+
+                           FOXP3 378 kGavWtvd 385
+                                     k + Wtv+
+  tr|A0A1X7TRC2|A0A1X7TRC2_AMPQE 972 KSSWWTVN 979
+                                     99****96 PP
+
+>> tr|A0A1X7UKK6|A0A1X7UKK6_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063603
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.2   0.0   1.1e-20     3e-17     311     386 ..     158     242 ..     108     247 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 64.2 bits;  conditional E-value: 1.1e-20
+                           FOXP3 311 nmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrves.........ekGa 380
+                                       +PP  +a +i  a+  +P k + +++iy+W    f y++  +  Wkn++rhnLsL kCf +ve           kG 
+  tr|A0A1X7UKK6|A0A1X7UKK6_AMPQE 158 AHKPPLSFACMIFMALESSPTKTLPVKQIYEWVQWKFPYYQSASPGWKNSIRHNLSLNKCFKKVEKfskrsksiiTKGG 236
+                                     468*************************************************************9544444444469** PP
+
+                           FOXP3 381 vWtvde 386
+                                      Wtvd 
+  tr|A0A1X7UKK6|A0A1X7UKK6_AMPQE 237 LWTVDS 242
+                                     ****96 PP
+
+>> tr|A0A1X7V9H3|A0A1X7V9H3_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.5   0.1   1.8e-20   4.9e-17     311     374 ..     158     223 ..     152     247 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 63.5 bits;  conditional E-value: 1.8e-20
+                           FOXP3 311 nmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnnta.tWknavrhnLsLhkC.fvrv 374
+                                      +rPPf ya+li  ai   P+  +tLn iy+W    f +fr   a +Wkn++rhnLs+ k  f +v
+  tr|A0A1X7V9H3|A0A1X7V9H3_AMPQE 158 SIRPPFSYAALISLAINSHPQNMLTLNSIYRWIEDNFPFFRMPEArAWKNSIRHNLSIKKNlFQKV 223
+                                     79***************************************977648***********99525455 PP
+
+>> tr|A0A1X7SG41|A0A1X7SG41_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   0.0   3.5e-19   9.4e-16     312     374 ..     108     170 ..      91     205 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 3.5e-19
+                           FOXP3 312 mrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrv 374
+                                      +PPf ya+li  a+L + ++++tL +iy++    + y+r +   Wkn++rhnLsL + f++ 
+  tr|A0A1X7SG41|A0A1X7SG41_AMPQE 108 TKPPFSYAQLIVQALLASSDRKQTLSNIYQFISDKYPYYRLEDKGWKNSIRHNLSLNQYFMKA 170
+                                     48********************************************************99975 PP
+
+>> tr|A0A1X7VG55|A0A1X7VG55_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063392
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   0.1   8.2e-18   2.2e-14     313     388 ..     133     214 ..     128     233 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 8.2e-18
+                           FOXP3 313 rPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnnt.atWknavrhnLsLhkCfvrv...es..ekGavWtvd 385
+                                     +P + y +li  +i  aP k+ tL ei ++    f y+++n    W n++rhnLsL  Cfv+    ++  +kG  Wt d
+  tr|A0A1X7VG55|A0A1X7VG55_AMPQE 133 KPAYSYIALIAMSIECAPHKRATLSEICQFIRDRFPYYQQNCkQGWENSIRHNLSLNECFVKQpreQGrpGKGHYWTLD 211
+                                     799********************************9998876268****************7522123225999****9 PP
+
+                           FOXP3 386 ele 388
+                                        
+  tr|A0A1X7VG55|A0A1X7VG55_AMPQE 212 KNA 214
+                                     764 PP
+
+>> tr|A0A1X7VGP4|A0A1X7VGP4_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10958034
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.2   0.0   5.1e-17   1.4e-13     309     385 ..     251     329 ..     239     350 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 52.2 bits;  conditional E-value: 5.1e-17
+                           FOXP3 309 fhnmrPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrv..esekGavWtvd 385
+                                     f +  PP+ +++l   ai+  P+k+ tLneiy + ++ f ++++   +Wkn++r  L    Cf+r    ++k   Wt++
+  tr|A0A1X7VGP4|A0A1X7VGP4_AMPQE 251 FSDKEPPYSFSALAGLAIMSYPQKKATLNEIYSFIASTFPFYKRSQRAWKNSIRNCLYSSDCFMRPrdKGGKNVYWTIN 329
+                                     78889***********************************************************862267888899997 PP
+
+>> tr|A0A1X7V1F6|A0A1X7V1F6_AMPQE  Fork-head domain-containing protein OS=Amphimedon queenslandica OX=400682 GN=10063560
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.3   0.0   1.5e-15   4.2e-12     313     376 ..      68     131 ..      64     149 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 47.3 bits;  conditional E-value: 1.5e-15
+                           FOXP3 313 rPPftyatlirWaiLeaPekqrtLneiyhWftrmfayfrnntatWknavrhnLsLhkCfvrves 376
+                                     rPP  y+ li  a+  +    + +neiyh+  + + +f+  +  Wkn++rhnLs+ + fv+v  
+  tr|A0A1X7V1F6|A0A1X7V1F6_AMPQE  68 RPPCSYSCLIAMALSASQTGCLPVNEIYHYIEQKYPFFKTAPEGWKNSIRHNLSMNQNFVKVLR 131
+                                     9***********************************************************9954 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (405 nodes)
+Target sequences:                      43437  (14716634 residues searched)
+Passed MSV filter:                      1569  (0.0361213); expected 868.7 (0.02)
+Passed bias filter:                      841  (0.0193614); expected 868.7 (0.02)
+Passed Vit filter:                        92  (0.00211801); expected 43.4 (0.001)
+Passed Fwd filter:                        31  (0.000713677); expected 0.4 (1e-05)
+Initial search space (Z):              43437  [actual number of targets]
+Domain search space  (domZ):              16  [number of targets reported over threshold]
+# CPU time: 0.33u 0.00s 00:00:00.33 Elapsed: 00:00:00.14
+# Mc/sec: 41025.50
+//
+[ok]

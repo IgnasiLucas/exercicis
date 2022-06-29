@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gunzip data/cerber.fa.gz
+gunzip data/Amphimedon_queenslandica.fasta.gz
 R --quiet --no-save -e "library(devtools); install_github('arendsee/rhmmer')"
