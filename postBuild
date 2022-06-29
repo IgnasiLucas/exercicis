@@ -2,3 +2,4 @@
 
 gunzip data/Amphimedon_queenslandica.fasta.gz
 R --quiet --no-save -e "library(devtools); install_github('arendsee/rhmmer')"
+conda install -y -c bioconda blast
